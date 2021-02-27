@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", fantasy;
+    font-size: 15px;
+    line-height: 1.6;
+    color: black;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* TODO container*/
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* TODO intro*/
+
+.intro {
+    width: 100%;
+    height: 500px;
+    background-image: url("assets/images/Venice-Rialto-Venic.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0 0;
+}
