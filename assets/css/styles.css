@@ -18,39 +18,48 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-.caption {          /*заглавие сверху*/
-    padding-top: 10vw;
+.caption { /*заглавие сверху*/
+    padding-top: 8vw;
     position: center;
     font-family: 'Playfair Display', serif;
     font-size: 3.5vw;
     word-wrap: normal;
     line-height: 1.2;
     color: white;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 1),
+    0px 8px 13px rgba(0, 0, 0, 4),
+    0px 18px 23px rgba(0, 0, 0, 2);
+
 }
 
+
+/* TODO intro*/
+.intro {
+    width: 100%; /* тут картинка*/
+    height: 35vw;
+    background-image: url("assets/images/venic/Rialto(header).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    opacity: 0.97;
+}
+
+
 /* TODO container*/
-.container {   /*не нужен*/
+.container { /*не нужен*/
     width: 80%;
     margin: 0 auto;
 }
 
-.menu{    /*это меню со всеми городами*/
+.menu { /*это меню со всеми городами*/
     margin: auto;
-    max-width: 1000px;
-    min-width: 500px;
+    max-width: 70%;
+    min-width: 300px;
     height: 50px;
     display: flex;
 }
 
-.nav-cites-link{        /*сами сслыки на грода*/
-    position: absolute;
-    text-transform: uppercase;
-    color: #333;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-.list-cites{    /* ссылки завернуты в элементы списка*/
+.list-cites { /* ссылки завернуты в элементы списка*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,57 +67,53 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     height: 100%;
     flex-grow: 1;
-    margin-top: 1%;
-    margin-bottom: 20%;
+    margin-top: 1.3%;
 }
 
+.nav-cites-link { /*сами сслыки на грода*/
+    position: absolute;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 1.5vw;
+    text-decoration: none;
+}
 
-.nav-cites-link:hover{
-    font-size: 20px;
+.nav-cites-link:hover {
+    font-size: 1.7vw;
     transition: font-size 0.2s linear;
 }
 
-/* TODO intro*/
-.intro {
-    width: 100%;   /* тут картинка*/
-    height: 35vw;
-    background-image: url("assets/images/Venice-Rialto-Venic.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 0 0;
-}
-
-.intro_text{   /*тут вступление про Венецию*/
+.intro_text { /*тут вступление про Венецию*/
     margin: 5%;
     padding: 2%;
     font-family: 'Shippori Mincho B1', serif;
-    width: 90%;
     font-size: 20px;
     word-wrap: normal;
 }
 
-.boxShadow {     /*это рамочка*/
-    max-width: 60%;
-    margin: 5%;
+.boxShadow { /*это рамочка*/
+    margin-left: 3%;
+    max-width: 66%;
     box-shadow: 0 0 7px 1px rgba(221, 221, 221, 1);
     background-color: white;
 }
 
-.recommended-place{     /*справа рекомендации*/
-    /*font-family: 'Shippori Mincho B1', serif;*/
+.recommended-place { /*справа рекомендации*/
     font-size: 20px;
     word-wrap: normal;
-    width: 30%;
+    width: 25%;
     float: right;
     margin-top: 1%;
 }
 
-.rec-title{              /*заголовок рекомендаций*/
+.rec-title { /*заголовок рекомендаций*/
     text-align: center;
+    font-size: 2vw;
+    margin-top: 3%;
     padding-bottom: 5%;
 }
 
-.recommend-cites-Rome {   /*картинка и название реком города*/
+.recommend-cites { /*картинка и название реком города*/
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -116,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.config-Rome-text{     /*название города по середине*/
+.config-recomm-text { /*название города по середине*/
     width: 100%;
     text-align: center;
     display: flex;
@@ -124,26 +129,29 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 }
 
-.Rome-text {      /*сам текст */
+.Rome-text { /*сам текст */
     width: 100%;
     padding: 3%;
     color: black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.3vw;
     text-align: left;
     display: block;
     margin-left: 3%;
     text-transform: uppercase;
     font-width: 500;
+    opacity: 1;
 }
 
-.Rome-text:hover{    /*обработчик наведения*/
+.Rome-text:hover { /*обработчик наведения*/
+    opacity: 0.5;
     color: grey;
+    transition: opacity .2s linear;
     transition: color .2s linear;
 }
 
 /* TODO content(navigation)*/
-.nav_title{                 /*надпис содержание*/
+.nav_title { /*надпис содержание*/
     padding-bottom: 20px;
     width: 100%;
     padding-left: 15%;
@@ -152,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montaga', serif;
 }
 
-.nav {                           /*отвечает за навигацию*/
+.nav { /*отвечает за навигацию*/
     line-height: 1.6;
     margin: 0;
     width: 100%;
@@ -161,14 +169,15 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     font-family: 'Montaga', serif;
 }
-.nav_link{       /*ссылочки*/
+
+.nav_link { /*ссылочки*/
     color: black;
     text-decoration: none;
     position: relative;
     transition: color .3s linear;
 }
 
-.nav_link:after{               /*элемент после ссылочек*/
+.nav_link:after { /*элемент после ссылочек*/
     content: "";
     width: 100%;
     height: 15%;
@@ -178,15 +187,38 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     z-index: 1;
     opacity: 0;
-    transition:opacity 0.2s linear;
+    transition: opacity 0.2s linear;
 }
 
-.nav_link:hover{                   /*обработчик наведения на сылочку*/
+.nav_link:hover { /*обработчик наведения на сылочку*/
     transition: color .2s linear;
     color: #f0d12a;
 }
 
-.nav_link:hover:after{             /*то что появится после наведения на ссылочку*/
+.nav_link:hover:after { /*то что появится после наведения на ссылочку*/
     display: block;
     opacity: 1;
+}
+
+.main {
+    width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+.sight {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.title-sight {
+    font-size: 30px;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+.sight-picture {
 }
