@@ -15,6 +15,7 @@
             background-size: cover;
             background-position: 0 0;
             opacity: 0.97;
+            margin: 0;
         }
     </style>
 </head>
@@ -35,7 +36,9 @@
             Популярные города
         </div>
         <div class="recommend-cites">
-            <img src="assets/images/venic/santi-giovanni-e-paolo.jpg" width="65%" alt="">
+            <div class="pic-Rec">
+                <img src="assets/images/venic/santi-giovanni-e-paolo.jpg" width="100%" alt="">
+            </div>
             <div class="config-recomm-text">
                 <a class="Rome-text" href="index.html">Венеция</a>
             </div>
@@ -47,7 +50,7 @@
             </div>
         </div>
     </aside>
-    <artical>
+    <div>
         <div class="boxShadow ">
             <div class="intro_text">
                 <p align="justify">
@@ -62,21 +65,23 @@
                 </p>
             </div>
         </div>
-    </artical>
-    <div class="nav_title">В этой статье :</div>
+    </div>
     <nav>
-        <ol class="nav">
-            <li><a class="nav_link" href="#grand-canal">Собор Святого Петра</a></li>
-            <li><a class="nav_link" href="#st.-marks-basilica">Балдахин Бернини</a></li>
-            <li><a class="nav_link" href="#san-giorgio-maggiore">Сикстинская капелла</a></li>
-            <li><a class="nav_link" href="#bridge-of-sighs">Ватиканские сады</a></li>
-            <li><a class="nav_link" href="#burano-canal">Станцы Рафаэля</a></li>
-            <li><a class="nav_link" href="#carnaval">Апартаменты Борджиа</a></li>
-            <li><a class="nav_link" href="#rialto-bridge">Замок Сант-Анджело</a></li>
-            <li><a class="nav_link" href="#dvorec-dozhej">Священные Гроты Ватикана</a></li>
-            <li><a class="nav_link" href="#santi-giovanni-e-paolo">Григорианский Этрусский музей</a></li>
-            <li><a class="nav_link" href="#scuola-grande-di-san-rocco">Галерея географических карт</a></li>
-        </ol>
+        <div class="bufForNav">
+            <div class="nav_title">В этой статье :</div>
+            <ol class="nav">
+                <li class="kk"><a class="nav_link" href="#grand-canal">Собор Святого Петра</a></li>
+                <li><a class="nav_link" href="#st.-marks-basilica">Балдахин Бернини</a></li>
+                <li><a class="nav_link" href="#san-giorgio-maggiore">Сикстинская капелла</a></li>
+                <li><a class="nav_link" href="#bridge-of-sighs">Ватиканские сады</a></li>
+                <li><a class="nav_link" href="#burano-canal">Станцы Рафаэля</a></li>
+                <li><a class="nav_link" href="#carnaval">Апартаменты Борджиа</a></li>
+                <li><a class="nav_link" href="#rialto-bridge">Замок Сант-Анджело</a></li>
+                <li><a class="nav_link" href="#dvorec-dozhej">Священные Гроты Ватикана</a></li>
+                <li><a class="nav_link" href="#santi-giovanni-e-paolo">Григорианский Этрусский музей</a></li>
+                <li><a class="nav_link" href="#scuola-grande-di-san-rocco">Галерея географических карт</a></li>
+            </ol>
+        </div>
     </nav>
     <main>
         <div class="sight">
@@ -276,8 +281,13 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="footer__title">
-            @alexSyte and his company 2021
+        <div class="con">
+            <div class="footer__title">
+                @alexSyte and his company 2021
+            </div>
+            <div class="footer__title">
+                Tел: +375-33-329-84-06
+            </div>
         </div>
     </footer>
 </body>
