@@ -26,10 +26,10 @@
         </h1>
     </div>
     <div class="menu">
-        <li class="list-cites"><a class="nav-cites-link" href="index.html">Венеция</a></li>
-        <li class="list-cites"><a class="nav-cites-link" href="Rome.html">Рим</a></li>
-        <li class="list-cites"><a class="nav-cites-link" href="Vatican.html">Ватикан</a></li>
-        <li class="list-cites"><a class="nav-cites-link" href="New_York.html">Нью-Йорк</a></li>
+        <li class="list-cites"><a class="nav-cites-link" href="index.php">Венеция</a></li>
+        <li class="list-cites"><a class="nav-cites-link" href="Rome.php">Рим</a></li>
+        <li class="list-cites"><a class="nav-cites-link" href="Vatican.php">Ватикан</a></li>
+        <li class="list-cites"><a class="nav-cites-link" href="New_York.php">Нью-Йорк</a></li>
     </div>
     <aside class="recommended-place">
         <div class="rec-title">
@@ -40,13 +40,13 @@
                 <img src="assets/images/venic/santi-giovanni-e-paolo.jpg" width="100%" alt="">
             </div>
             <div class="config-recomm-text">
-                <a class="Rome-text" href="index.html">Венеция</a>
+                <a class="Rome-text" href="index.php">Венеция</a>
             </div>
         </div>
         <div class="recommend-cites">
             <img src="assets/images/rome/colisey-recomm.jpg" width="65%" alt="">
             <div class="config-recomm-text">
-                <a class="Rome-text" href="Rome.html">Рим</a>
+                <a class="Rome-text" href="Rome.php">Рим</a>
             </div>
         </div>
     </aside>
