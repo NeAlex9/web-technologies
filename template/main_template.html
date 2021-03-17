@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ру">
+<head>
+    <meta charset="utf-8">
+    <title>Journeys</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fo<!---->nts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@0,700;1,600;1,700&display=swap">
+</head>
+<body>
+    <div style="background-image: url('{path_to_back_image}')" class="intro">
+        <h1>
+            <div class="caption" align="center"> 10 самых красивых достопримечательностей <br>{city}</br> </div>
+        </h1>
+    </div>
+    {menu}
+    <aside class="recommended-place">
+        <div class="rec-title">
+            Популярные города
+        </div>
+        <div class="recommend-cites">
+            <img src="{path_to_recomm_place_1}" width="65%" alt="">
+            <div class="config-recomm-text">
+                <a class="Rome-text" href="{name_recomm_place_1}">{name_recomm_place_1}</a>
+            </div>
+        </div>
+        <div class="recommend-cites">
+            <img src="{path_to_recomm_place_2}" alt="" width="65%">
+            <div class="config-recomm-text">
+                <a class="Rome-text" href="{name_recomm_place_2}">{name_recomm_place_2}</a>
+            </div>
+        </div>
+    </aside>
+    <div>
+        <div class="boxShadow ">
+            <div class="intro_text">
+                <p align="justify">
+                    {p1}
+                </p>
+                <p align="justify">
+                    {p2}
+                </p>
+                <p align="justify">
+                    {p3}
+                </p>
+            </div>
+        </div>
+    </div>
+    <nav>
+        <div class="bufForNav">
+            <div class="nav_title">В этой статье :</div>
+            <ol class="nav">
+                <li><a class="nav_link" href="#grand-canal">{name_sight_1}</a></li>
+                <li><a class="nav_link" href="#st.-marks-basilica">{name_sight_2}</a></li>
+                <li><a class="nav_link" href="#san-giorgio-maggiore">{name_sight_3}</a></li>
+                <li><a class="nav_link" href="#bridge-of-sighs">{name_sight_4}</a></li>
+                <li><a class="nav_link" href="#burano-canal">{name_sight_5}</a></li>
+                <li><a class="nav_link" href="#carnaval">{name_sight_6}</a></li>
+                <li><a class="nav_link" href="#scuola-grande-di-san-rocco">{name_sight_7}</a></li>
+                <li><a class="nav_link" href="#rialto-bridge">{name_sight_8}</a></li>
+                <li><a class="nav_link" href="#dvorec-dozhej">{name_sight_9}</a></li>
+                <li><a class="nav_link" href="#santi-giovanni-e-paolo">{name_sight_10}</a></li>
+            </ol>
+        </div>
+    </nav>
+    <main>
+        <div class="sight">
+            <figure>
+                <div id="grand-canal" class="title-sight">
+                    {name_sight_1}
+                </div>
+                <div class="sight-picture">
+                    <img src={path_to_sight_1} alt="" width="73%">
+                </div>
+                <div class="boxShadow">
+                    <article class="intro_text">
+                        <p>{p_1_sight_1}
+                        </p>
+                        <p>{p_2_sight_1}
+                        </p>
+                        <p> {p_3_sight_1}
+                        </p>
+                    </article>
+                </div>
+            </figure>
+            <figure>
+                <div id="st.-marks-basilica" class="title-sight">
+                    {name_sight_2}
+                </div>
+                <div class="sight-picture">
+                    <img src={path_to_sight_2} alt="" width="73%">
+                </div>
+                <div class="boxShadow">
+                    <article class="intro_text">
+                        <p>
+                            {p_1_sight_2}
+                        </p>
+                        <p>{p_2_sight_2}
+                        </p>
+                        <p>
+                            {p_3_sight_2}
+                        </p>
+                    </article>
+                </div>
+            </figure>
+            <figure>
+                <div id="san-giorgio-maggiore" class="title-sight">
+                    {name_sight_3}
+                </div>
+                <div class="sight-picture">
+                    <img src={path_to_sight_3} alt="" width="73%">
+                </div>
+                <div class="boxShadow">
+                    <article class="intro_text">
+                        <p>
+                            {p_1_sight_3}                        </p>
+                        <p>
+                            {p_2_sight_3}
+                        </p>
+                    </article>
+                </div>
+            </figure>
+            <figure>
+                <div id="bridge-of-sighs" class="title-sight">
+                    {name_sight_4}
+                </div>
+                <div class="sight-picture">
+                    <img src={path_to_sight_4} alt="" width="73%">
+                </div>
+                <div class="boxShadow">
+                    <article class="intro_text">
+                        <p>
+                            {p_1_sight_4}
+                        <p>
+                        {p_2_sight_4}                        <p>
+
+                    </p>
+                    </article>
+                </div>
+            </figure>
+            <figure>
+                <div id="burano-canal" class="title-sight">
+                    {name_sight_5}
+                </div>
+                <div class="sight-picture">
+                    <img src={path_to_sight_5} alt="" width="73%">
+                </div>
+                <div class="boxShadow">
+                    <article class="intro_text">
+                        <p>
+                            {p_1_sight_5}
+                        <p>
+                        {p_2_sight_5}                        </p>
+                    </article>
+                </div>
+            </figure>
+            <figure>
+                <div id="carnaval" class="title-sight">
+                    {name_sight_6}
+                </div>
+                <div class="sight-picture">
+                    <img src={path_to_sight_6} alt="" width="73%">
+                </div>
+                <div class="boxShadow">
+                    <article class="intro_text">
+                        <p>{p_1_sight_6}
+                        </p>
+                        <p>{p_2_sight_6}
+                        </p>
+                    </article>
+                </div>
+            </figure>
+            <figure>
+                <div id="scuola-grande-di-san-rocco" class="title-sight">
+                    {name_sight_7}
+                </div>
+                <div class="sight-picture">
+                    <img src={path_to_sight_7} alt="" width="73%">
+                </div>
+                <div class="boxShadow">
+                    <article class="intro_text">
+                        <p>
+                            {p_1_sight_7}                        </p>
+                        <p>
+                            {p_2_sight_7}
+                        </p>
+                    </article>
+                </div>
+            </figure>
+            <figure>
+                <div id="rialto-bridge" class="title-sight">
+                    {name_sight_8}
+                </div>
+                <div class="sight-picture">
+                    <img src={path_to_sight_8} alt="" width="73%">
+                </div>
+                <div class="boxShadow">
+                    <article class="intro_text">
+                        <p>
+                            {p_1_sight_8}                        </p>
+                        <p>
+                            {p_2_sight_8}
+                        </p>
+                    </article>
+                </div>
+            </figure>
+            <figure>
+                <div id="dvorec-dozhej" class="title-sight">
+                    {name_sight_9}
+                </div>
+                <div class="sight-picture">
+                    <img src={path_to_sight_9} alt="" width="73%">
+                </div>
+                <div class="boxShadow">
+                    <article class="intro_text">
+                        <p>
+                            {p_1_sight_9}
+                        </p>
+                        {p_2_sight_9}
+                        </p>
+                    </article>
+                </div>
+            </figure>
+            <figure>
+                <div id="santi-giovanni-e-paolo" class="title-sight">
+                    {name_sight_10}
+                </div>
+                <div class="sight-picture">
+                    <img src={path_to_sight_10} alt="" width="73%">
+                </div>
+                <div class="boxShadow">
+                    <article class="intro_text">
+                        <p>
+                            {p_1_sight_10}                        </p>
+                        <p>
+                            {p_2_sight_10}                        </p>
+                    </article>
+                </div>
+            </figure>
+        </div>
+    </main>
+    {footer}
+</body>
+</html>

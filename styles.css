@@ -44,6 +44,16 @@ p {
     display: flex;
 }
 
+.intro {
+    width: 100%; /* тут картинка*/
+    height: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    opacity: 0.97;
+    margin: 0;
+}
+
 .pic-Rec{
     width: 60%;
 }

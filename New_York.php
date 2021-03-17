@@ -6,20 +6,9 @@
     <link rel="stylesheet" href="styles.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@0,700;1,600;1,700&display=swap">
-    <style>
-        .intro {
-            width: 100%; /* тут картинка*/
-            height: 35vw;
-            background-image: url("assets/images/new-york/New-York-City-USA(header)N.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: 0 0;
-            opacity: 0.97;
-        }
-    </style>
 </head>
 <body>
-    <div class="intro">
+    <div style="background-image: url('assets/images/new-york/New-York-City-USA(header)N.jpg')" class="intro">
         <h1>
             <div class="caption" align="center"> 10 самых красивых достопримечательностей <br>Нью-Йорка</br> </div>
         </h1>
