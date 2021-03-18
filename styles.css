@@ -36,6 +36,16 @@ p {
 
 }
 
+.date_time{
+    position: absolute;
+    /*margin-top: 100%;*/
+    padding: 0;
+    font-weight: normal;
+    color: white;
+    font-family: "Montserrat", fantasy;
+    z-index: 1000;
+}
+
 .menu { /*это меню со всеми городами*/
     margin: auto;
     max-width: 60%;
